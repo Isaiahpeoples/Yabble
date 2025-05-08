@@ -1,35 +1,64 @@
 <div align="center" id="toc">
-<ul style="list-style: none">
-<summary>
- <h1>Yabble</h1>
-</summary>
-</ul>
+  <ul style="list-style: none">
+	<summary>
+  	<h1>💬 Yabble</h1>
+	</summary>
+  </ul>
 </div>
 
-<br>
+<div align="center">
 
-A Full Stack Real-time Chat App built with MERN, Socket.io, TailwindCSS, and DaisyUI. Features JWT-based auth, real-time messaging, online status, global state with Zustand, and robust client/server error handling using Node.js, Express, and MongoDB.
+[![Version](https://img.shields.io/badge/version-4.0.0-white.svg)](https://github.com/Isaiahpeoples/Yabble)
+[![Built With](https://img.shields.io/badge/Built_with-MERN_Stack-white)](https://www.mongodb.com/mern-stack)
+[![Socket.io](https://img.shields.io/badge/Realtime-Socket.io-white)](https://socket.io/)
+[![Tailwind CSS](https://img.shields.io/badge/Styled_with-TailwindCSS-white)](https://tailwindcss.com/)
+[![DaisyUI](https://img.shields.io/badge/UI-DaisyUI-white)](https://daisyui.com/)
+[![JWT](https://img.shields.io/badge/Auth-JWT-white)](https://jwt.io/)
+[![State](https://img.shields.io/badge/State-Zustand-white)](https://github.com/pmndrs/zustand)
 
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](https://github.com/Isaiahpeoples/Yabble/graphs/commit-activity)
+[![Live](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yabble-production.up.railway.app/)
 
-## 🚀 Technologies Used 🚀
+</div>
+<br/>
 
-- **MongoDB**: NoSQL database for storing users, messages, and metadata.
-- **Express.js**: Node.js web framework for building server-side APIs.
-- **React**: Frontend library for building interactive user interfaces.
-- **Node.js**: JavaScript runtime for building scalable server-side applications.
-- **Socket.io**: Enables real-time, bidirectional communication between client and server.
-- **TailwindCSS**: Utility-first CSS framework for rapid UI styling.
-- **DaisyUI**: Tailwind plugin offering styled UI components.
-- **JSON Web Token**: Secure user authentication and authorization.
-- **Zustand**: Lightweight state management library for React.
+## 🗨️ Project Overview
 
-## 📑 Key Features 📑
+**Yabble** is a modern full-stack chat application featuring real-time messaging, online user indicators, token-based authentication, and reactive UI components. Built with the **MERN stack**, **Socket.io**, **TailwindCSS**, and **DaisyUI**, it delivers a fast, scalable, and elegant communication platform. It is ideal for dynamic conversation or team collaboration tool.
 
-- **Authentication & Authorization**: Secures routes with token-based user identity.
-- **Real-time Messaging**: Instantly sends and receives messages live.
-- **Online User Status**: Displays active users in real-time.
-- **Global State Management**: Manages app-wide state efficiently.
-- **Error Handling**: Catches and manages application errors gracefully.
+<br/>
+
+## 🚀 Technologies Used
+
+| Technology     	| Purpose                                                                  	|
+|--------------------|------------------------------------------------------------------------------|
+| **MongoDB**    	| 🗃️ Database for storing messages, users, and sessions.                  	|
+| **Express.js** 	| ⚙️ Backend framework for REST APIs and middleware.                      	|
+| **React**      	| ⚛️ Frontend library for building interactive interfaces.                	|
+| **Node.js**    	| 🔧 Backend runtime for scalable server logic.                            	|
+| **Socket.io**  	| 🔄 Enables real-time, bidirectional communication.                      	|
+| **TailwindCSS**	| 🎨 Utility-first styling for fast, responsive UI.                       	|
+| **DaisyUI**    	| 🧩 UI component library extending Tailwind.                             	|
+| **JWT**        	| 🔐 JSON Web Tokens for secure user authentication.                      	|
+| **Zustand**    	| 🧠 Lightweight state management for global state handling.              	|
+
+<br/>
+
+## 📑 Key Features
+
+- 🔐 **Authentication & Authorization** — Secure login via JWT tokens.
+- 💬 **Real-time Messaging** — Live message exchange with instant updates.
+- 👥 **Online Status** — See who's online in real-time.
+- 🧠 **State Management** — Efficient client state with Zustand.
+- 🛠️ **Robust Error Handling** — Handles and logs API/client-side errors gracefully.
+
+<br/>
+
+## 📸 Screenshot
+
+![Yabble  Screenshot](https://online-project-images.s3.us-east-2.amazonaws.com/yabble/Yabble-1.png)
+
+<br/>
 
 ## 🔧 Installation & Setup 🔧
 
@@ -68,12 +97,29 @@ pnpm dev
 bun dev
 ```
 
+<br/>
+
 ## 📂 Project Structure 📂
 
-- **/backend: Node.js/Express API for handling user data and requests**
+- **/backend: Node.js + Express API for user, message, and auth handling**
 
-- **/frontend: React.js app with UI components and client-side logic**
+- **/frontend: React client with Zustand state and Socket.io integration**
 
-- **/components: UI components and forms**
+- **/components: UI elements, forms, and shared modules**
 
-- **/public: Static assets and images**
+- **/public: Static assets (e.g. icons, fonts, logos)**
+
+<br/>
+
+## 🌐 Live Demo
+
+Check out the live version:  
+👉 [Yabble Live Demo](https://yabble-production.up.railway.app/)
+
+<br/>
+
+## ⭐️ Support
+
+If you found this project helpful or interesting, please consider giving it a **⭐️ Star**!  
+Your support boosts the project’s visibility and helps it grow.
+**Thank You! 🙏**
